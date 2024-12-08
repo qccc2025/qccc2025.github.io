@@ -1,17 +1,79 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+import { Image } from 'astro:assets';
+import checkmark from '../assets/checkmark.png';
+import clock from '../assets/clock.png';
 ---
 
 <Layout title="QCCC 2025">
-  <div class="hero bg-base-200 min-h-screen">
+  <div class="hero bg-base-200 min-h-96">
     <div class="hero-content text-center">
-      <div class="max-w-md">
-        <h1 class="text-5xl font-bold">Hello there</h1>
+      <div class="max-w-3xl">
+        <h1 class="text-5xl font-bold">Quantum and Classical Computation and Complexity</h1>
         <p class="py-6">
-          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-          quasi. In deleniti eaque aut repudiandae et a id nisi.
+        The 3rd International Conference on Quantum and Classical Computation and Complexity
+        (QCCC2025) is devoted to the development of quantum and classical algorithms in different
+        areas of theoretical computer science in various models of computation, analysis of the
+        complexity of algorithms and their comparison for quantum and classical versions
         </p>
-        <button class="btn btn-primary">Get Started</button>
+        <a href="/venue" class="btn btn-primary">Conference Venue</a>
+        <a href="/speakers" class="btn btn-outline btn-primary">Invited Speakers</a>
+        <a href="/committees" class="btn btn-outline btn-primary">Program Committee</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-3 gap-8">
+    <div class="card bg-base-100 my-2 w-100 shadow-xl">
+      <div class="card-body">
+        <h2 class="card-title">Potential Topics</h2>
+        <div class="prose">
+        <ul>
+          <li>quantum algorithms</li>
+          <li>models of quantum computation</li>
+          <li>quantum complexity theory</li>
+          <li>simulation of quantum systems</li>
+          <li>quantum  cryptography</li>
+          <li>quantum communication</li>
+          <li>quantum information theory</li>
+          <li>quantum and classical machine learning</li>
+          <li>quantum and classical big data analysis</li>
+          <li>quantum  and classical automata theory</li>
+        </ul>
+        </div>
+        <div class="card-actions justify-end">
+          <a href="/submission" class="btn btn-primary">Submit Paper</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg-base-100 my-2 w-100 shadow-xl">
+      <div class="card-body">
+        <h2 class="card-title">Important Dates</h2>
+        <ul class="timeline timeline-vertical max-w-60">
+          <li>
+            <div class="timeline-start">5 February</div>
+            <div class="timeline-middle"><Image src={checkmark} alt="checkmark" /></div>
+            <div class="timeline-end timeline-box min-w-48">Paper Submission</div>
+            <hr class="bg-primary" />
+          </li>
+          <li>
+            <hr class="bg-primary" />
+            <div class="timeline-start">5 March</div>
+            <div class="timeline-middle"><Image src={clock} alt="clock" /></div>
+            <div class="timeline-end timeline-box min-w-48">Author Notification</div>
+            <hr class="" />
+          </li>
+          <li>
+            <hr class="" />
+            <div class="timeline-start">21-23 June</div>
+            <div class="timeline-middle"><Image src={clock} alt="clock" /></div>
+            <div class="timeline-end timeline-box min-w-48">Conference</div>
+          </li>
+        </ul>
+        <div class="card-actions justify-end">
+        </div>
       </div>
     </div>
   </div>
