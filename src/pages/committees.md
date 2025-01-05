@@ -5,15 +5,19 @@ title: Committees
 
 # Program Committee
 
-- Prof. John Doe
-- Dr. H. Random
-
-# Organising Committee
-
-- Prof. John Doe
-- Dr. H. Random
+- Farid Ablayev
+- Edward A. Hirsch
+- Alexander S. Kulikov
+- Mikhail Volkov
+- Alexander Razborov
+- Nikolay Vereshchagin
+- Joshua Huang
 
 # Local Team
 
-- Prof. John Doe
-- Dr. H. Random
+- Anton Egorchev
+- Farid Ablayev
+- Kamil Khadiev
+- Chulpan Sharafulislamova
+- Alexander Vasiliev
+- Mansur Ziiatdinov
