@@ -1,0 +1,51 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+import { Image } from 'astro:assets';
+import checkmark from '../assets/checkmark.png';
+import clock from '../assets/clock.png';
+
+import Carousel from '../components/Carousel.astro';
+
+import venue0 from '../assets/venue0.sm.jpg'
+import venue1 from '../assets/venue1.sm.jpg'
+import venue2 from '../assets/venue2.sm.jpg'
+import venue3 from '../assets/venue3.sm.jpg'
+import venue4 from '../assets/venue4.sm.jpg'
+
+// Carousel component
+const carouselData = [
+  {
+    src: venue0,
+    alt: "Kazan Kremlin",
+    text: "Conference Venue"
+  },
+  {
+    src: venue1,
+    alt: "Art-object - Distances to Different Locations",
+    text: "Venue Details"
+  },
+  {
+    src: venue2,
+    alt: "Palace of Agriculturist",
+    text: "Venue Details"
+  },
+  {
+    src: venue3,
+    alt: "Kazan Federal University",
+    text: "Venue Details"
+  },
+  {
+    src: venue4,
+    alt: "Scientist Cat - folklore figure, statue in KFU yard",
+    text: "Venue Details"
+  },
+];
+---
+
+<Layout title="Venue">
+
+<Carousel carouselData={carouselData} />
+
+</Layout>
+
