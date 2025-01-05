@@ -5,7 +5,5 @@ title: Contact Us
 
 # Contact Us
 
-Email: ...
-
-Phone (WhatsApp, Telegram): ...
+**Email:** [qccc2025@gmail.com](mailto:qccc2025@gmail.com)
 
