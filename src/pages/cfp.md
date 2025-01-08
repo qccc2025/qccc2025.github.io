@@ -7,7 +7,7 @@ title: Call for Papers
 
 3rd International Conference on Quantum and Classical Computation and Complexity (QCCC 2025) will be held in Kazan, Russia, on June 21-23, 2025.
 The conference is organized by the Kazan Federal University.
-It continues the series of seminars co-located with the CSR and IQSA conferences and is the third in this series. The conference is hybrid (in-person and online), but in-person participation is preferred. We plan to publish a special issue of the Lobachevskii Journal of Mathematics with the extended versions of the conference talks.
+It continues the series of seminars co-located with the CSR and IQSA conferences and is the third in this series. The conference is hybrid (in-person and online), but in-person participation is preferred. 
 
 # Principal Topics
 
