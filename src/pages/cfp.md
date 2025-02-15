@@ -17,11 +17,11 @@ Submissions concerning the quantum and classical computations and their complexi
 - models of quantum computation
 - classical and quantum complexity theory
 - simulation of quantum systems
-- quantum cryptography
-- quantum communication
+- classical and quantum communication
 - quantum information theory
-- quantum and classical machine learning
+- classical and quantum machine learning
 - data analysis on quantum computers
-- quantum and classical automata theory
+- classical and quantum automata theory
+
 
 <a href="/submission" class="btn btn-primary">Submit Paper</a>
