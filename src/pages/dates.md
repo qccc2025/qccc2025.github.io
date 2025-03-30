@@ -5,8 +5,8 @@ title: Important Dates
 
 # Important Dates
 
-- Paper submission:     ~~March 1, 2025~~ **March 23, 2025**
-- Author notification:	**April 15, 2025**
-- Camera-ready version: **April 22, 2025**
+- Paper submission:     ~~March 1, 2025~~ **April 18, 2025**
+- Author notification:	**May 7, 2025**
+- Camera-ready version: **May 22, 2025**
 - Early registration: 	**May 30, 2025**
 - Conference dates:   	**June 27-30, 2025**
